@@ -1,5 +1,7 @@
 function buyLasagne() {
   let name = prompt("What is your name?");
+  name = name[0].toUpperCase() + name.slice(1).toLowerCase();
+
   let email = prompt("What is your email address?");
   let emoji = prompt("What is your favorite emoji?");
 

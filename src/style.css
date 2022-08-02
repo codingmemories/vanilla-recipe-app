@@ -2,7 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  background: #000;
 }
 .wrapper {
   max-width: 500px;
@@ -10,23 +10,25 @@ body {
   padding: 20px;
 }
 .container {
-  background: #c4c1e0;
+  background: #fff;
   border-radius: 10px;
 }
 .section-recipe {
   padding: 50px;
 }
 .section-recipe__title {
+  font-family: "Square Peg", cursive;
   color: #130e0e;
-  border: 1px solid #fafafa;
+  border: 2px solid #af750a;
   border-radius: 5px;
   margin-top: auto;
   padding: 10px 0px;
   text-align: center;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
 }
 .section-recipe__title-name {
+  font-family: "Raleway", sans-serif;
   color: #130e0e;
   text-align: center;
   font-size: 24px;
@@ -46,12 +48,19 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+.section-recipe__text-letter {
+  font-style: italic;
+  color: #af750a;
+  font-size: 32px;
+}
+
 .section-recipe__text-name {
-  color: #7c73e6;
-  background-color: #ffe9e3;
+  font-style: italic;
+  color: #000;
+  background-color: rgba(175, 117, 10, 0.5);
 }
 .section-recipe__link {
-  color: #7c73e6;
+  color: #af750a;
   display: block;
   text-align: end;
   font-size: 14px;
@@ -72,7 +81,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: #fafafa;
-  background-color: #7c73e6;
+  background-color: #af750a;
   border: none;
   border-radius: 50px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
