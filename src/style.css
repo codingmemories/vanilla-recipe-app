@@ -4,13 +4,15 @@ body {
   box-sizing: border-box;
   background: #000;
 }
+
 .wrapper {
   max-width: 500px;
   margin: 0px auto;
   padding: 20px;
 }
+
 .container {
-  background: #fff;
+  background: rgb(208, 201, 194);
   border-radius: 10px;
 }
 .section-recipe {
